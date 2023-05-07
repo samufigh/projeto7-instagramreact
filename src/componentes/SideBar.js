@@ -1,7 +1,7 @@
-import Usuario from "./Usuario";
-import Sugestoes from "./Sugestoes";
+import Usuario from "./User";
+import Sugestoes from "./Suggestions";
 
-export default function Sidebar() {
+export default function SideBar() {
     return (
         <div class="sidebar">
             <Usuario />
