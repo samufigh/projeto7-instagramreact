@@ -26,14 +26,16 @@ export default function Usuario() {
   return (
     <div class="usuario">
       <img 
+      data-test="profile-image"
       src={perfil} 
       alt="imagem de perfil" 
       onClick={atualizarPerfil}
       />
       <div class="texto">
         <span>
-          <strong>{username}</strong>
+          <strong data-test="name"> {username} </strong>
           <ion-icon
+            data-test="edit-name"
             name="pencil"
             onClick={atualizarusername}
           ></ion-icon>

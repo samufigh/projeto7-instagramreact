@@ -32,7 +32,7 @@ export default function Post(props) {
 
 
   return (
-    <div class="post">
+    <div data-test="post" class="post">
       <div class="topo">
         <div class="usuario">
           <img src={props.urlPerfil} alt={props.usuario} />
@@ -45,6 +45,7 @@ export default function Post(props) {
 
       <div class="conteudo">
         <img
+          data-test="post-image"
           onClick={likeByImg}
           src={props.urlPost}
           alt={props.altPost} />
@@ -54,6 +55,7 @@ export default function Post(props) {
         <div class="acoes">
           <div>
             <ion-icon
+              data-test="like-post"
               onClick={likePost}
               name={coracaoAtual}
               class={corCoracaoAtual}
@@ -64,6 +66,7 @@ export default function Post(props) {
           </div>
           <div>
             <ion-icon
+              data-test="save-post"
               onClick={() => clickSalvar(!salvar)}
               name={salvarAtual}></ion-icon>
           </div>
@@ -75,11 +78,14 @@ export default function Post(props) {
             Curtido por <strong>nathanandrade</strong> e{" "}
             <strong>
               outras{" "}
-              <span data-test="likes-number">
-                {likes.toLocaleString("pt-BR", {
+              <span 
+                data-test="likes-number">
+                {
+                likes.toLocaleString("pt-BR", {
                   minimumFractionDigits: 0,
                   maximumFractionDigits: 2,
-                })}{" "}
+                })
+                } {" "}
               </span>
                  pessoas
             </strong>
