@@ -2,11 +2,11 @@ import Sugestao from './Suggestion';
 
 export default function Sugestoes() {
   const usuarios = [
-    'bad.vibes.memes',
-    'chibirdart',
-    'razoesparaacreditar',
-    'adorable_animals',
-    'smallcutecats'
+    'itachi',
+    'neji',
+    'gaara',
+    'shikamaru',
+    'kakashi'
   ]
   return (
     <div class="sugestoes">
@@ -17,7 +17,7 @@ export default function Sugestoes() {
 
       {usuarios.map((usuario) => (
         <Sugestao
-          urlUser={`assets/img/${usuario}.svg`}
+          urlUser={`assets/perfis/${usuario}.jpg`}
           user={usuario}
         />
       ))}

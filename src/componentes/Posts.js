@@ -2,7 +2,7 @@ import Post from './Post';
 
 export default function Posts(){
   const posts = [
-    'naruto',
+    'ino',
     'sasuke',
     'hinata'
 ]

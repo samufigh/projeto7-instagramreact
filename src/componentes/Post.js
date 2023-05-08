@@ -73,9 +73,9 @@ export default function Post(props) {
         </div>
 
         <div class="curtidas">
-          <img src="assets/perfis/sakura.jpg" alt="sakura" />
+          <img src="assets/perfis/naruto.jpg" alt="sakura" />
           <div class="texto">
-            Curtido por <strong>nathanandrade</strong> e{" "}
+            Curtido por <strong>naruto</strong> e{" "}
             <strong>
               outras{" "}
               <span 

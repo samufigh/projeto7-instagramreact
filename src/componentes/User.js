@@ -1,9 +1,9 @@
 import React from "react";
 export default function Usuario() {
 
-  const [username, attUsername] = React.useState("ninja");
+  const [username, attUsername] = React.useState("s a k u r a");
   const [perfil, attPerfil] = React.useState(
-    "assets/perfis/hinata.jpg"
+    "assets/perfis/sakura.jpg"
   );
 
   function atualizarPerfil(){

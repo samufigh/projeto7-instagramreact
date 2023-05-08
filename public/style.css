@@ -124,6 +124,7 @@ body {
   width: 56px;
   height: 56px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .story .usuario {
@@ -267,6 +268,8 @@ body {
 .sidebar .sugestoes img {
   width: 32px;
   height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .sidebar .sugestoes .seguir {
