@@ -200,6 +200,13 @@ body {
   padding: 0 16px 13px;
   font-weight: 300;
 }
+.heart-red {
+  color: red;
+}
+
+.heart-black {
+  color: black;
+}
 
 .post .fundo .curtidas img {
   width: 20px;
